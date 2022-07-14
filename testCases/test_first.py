@@ -1,11 +1,17 @@
-import time
-from main.navigation import Navigation
-from pages.home_page import HomePage
+'''
+Test steps
+'''
 
+from qaseio.pytest import qase
+from testSteps.step_login import StepLogin
+
+@qase.id(1)
 def test_first():
-    nav = Navigation()
-    # element.send_keys('Hello')
-    home = HomePage()
-    element = nav.is_element_available(home.user_name)
-    element.send_keys('hello')
-    time.sleep(2)
+    '''
+    First test
+    '''
+    step_login = StepLogin()
+    step_login.enter_user_name("standard_user")
+    step_login.enter_password("secret_sauce")
+    step_login.click_login_button()
+    step_login.verify_login()

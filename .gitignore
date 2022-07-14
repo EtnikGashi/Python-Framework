@@ -1,0 +1,11 @@
+# gitignore
+env
+__pycache__
+.pytest_cache
+main/__pycache__
+pages/__pycache__
+testBase/__pycache__
+testCases/__pycache__
+testSteps/__pycache__
+.vscode
+qaseio.lock
