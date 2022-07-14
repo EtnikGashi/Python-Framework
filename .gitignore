@@ -9,3 +9,4 @@ testCases/__pycache__
 testSteps/__pycache__
 .vscode
 qaseio.lock
+.DS_Store
