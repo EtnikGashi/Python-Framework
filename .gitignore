@@ -4,9 +4,9 @@ __pycache__
 .pytest_cache
 main/__pycache__
 pages/__pycache__
-testBase/__pycache__
-testCases/__pycache__
-testSteps/__pycache__
+test_base/__pycache__
+test_bases/__pycache__
+test_steps/__pycache__
 .vscode
 qaseio.lock
 .DS_Store

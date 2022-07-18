@@ -43,3 +43,12 @@ class StepLogin:
         home = HomePage()
         assert nav.is_element_available(home.title_text) is not None
         
+    @qase.step("Verify that the login is unsuccessful")
+    def verify_login_unsuccessful(self):
+        '''
+        Step: Verify that the login is successful
+        '''
+        nav = Navigation()
+        home = HomePage()
+        assert nav.is_element_available(home.title_text) is None
+        

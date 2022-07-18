@@ -2,7 +2,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.common.exceptions import TimeoutException
-from testBase.web_driver_factory import WebDriverFactory
+from test_base.web_driver_factory import WebDriverFactory
 
 class Navigation:
     '''

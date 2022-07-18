@@ -5,3 +5,4 @@ pylint==2.14.4
 pytest==7.1.2
 selenium-page-factory==2.5
 qase-pytest==2.3.2
+pytest-xdist==2.5.0
