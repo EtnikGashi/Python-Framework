@@ -10,3 +10,4 @@ test_steps/__pycache__
 .vscode
 qaseio.lock
 .DS_Store
+qaseio.runid
