@@ -10,9 +10,9 @@ from test_steps.step_login import StepLogin
 from decorators.screenshot import screenshot
 from data_providers.user_provider import get_users
 
-@pytest.mark.parametrize("user", get_users())
 @qase.id(1)
 @screenshot.on_failure
+@pytest.mark.parametrize("user", get_users())
 def test_first(user: User):
     '''
     First test

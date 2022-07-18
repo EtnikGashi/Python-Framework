@@ -1,6 +1,5 @@
 import pytest
 from test_base.web_driver_factory import WebDriverFactory
-from qaseio.pytest import qase
 
 @pytest.fixture(autouse=True)
 def setup_and_tear_down():
@@ -12,4 +11,4 @@ def setup_and_tear_down():
 
     yield
 
-    # driver.quit()
+    driver.quit()
